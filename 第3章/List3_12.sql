@@ -9,5 +9,3 @@ FROM Shohin;
 (1 row)
 
 */
-
-git commit -m "SQL入門 第3-1章終了"
