@@ -1,0 +1,7 @@
+CREATE VIEW ShohinJim (shohin_id, shohin_mei, shohin_bunrui, hanbai_tanka, shiire_tanka, torokubi)
+AS
+SELECT *
+FROM Shohin
+WHERE shohin_bunrui = '事務用品';
+
+/* CREATE VIEW */
