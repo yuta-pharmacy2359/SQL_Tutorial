@@ -1,4 +1,4 @@
-SELECT TS.tenpo_id, TS.tenpo_mei, TS.shohin_id, S.shohin_mei, S.hanbai_tanka
+SELECT TS.tenpo_id, TS.tenpo_mei, S.shohin_id, S.shohin_mei, S.hanbai_tanka
 FROM TenpoShohin AS TS RIGHT OUTER JOIN Shohin AS S
 ON TS.shohin_id = S.shohin_id;
 
@@ -18,7 +18,7 @@ ON TS.shohin_id = S.shohin_id;
  000C     | 大阪       | 0006      | フォーク        |          500
  000C     | 大阪       | 0007      | おろし金        |          880
  000D     | 福岡       | 0001      | Tシャツ         |         1000
-          |           |           | ボールペン       |          100
-          |           |           | 圧力鍋          |         6800
+          |           | 0008      | ボールペン       |          100
+          |           | 0005      | 圧力鍋          |         6800
 (15 rows)
 */
